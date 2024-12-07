@@ -116,6 +116,11 @@ public class Algorithms
         return new string(newString);
     }
 
+    /// <summary>
+    /// Swap pairs of character adjacent to one another. The last character is left alone if the total length of the string is odd number.
+    /// </summary>
+    /// <param name="s"></param>
+    /// <returns>Returns swapped pairs of strings</returns>
     public static string SwapPairs(string s)
     {
         char[] swapped = new char[s.Length];

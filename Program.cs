@@ -1,4 +1,4 @@
 ﻿
 using AlgorithmSolutions;
 
-Console.WriteLine(Algorithms.GenerateSecretKey(256));
+Console.WriteLine(Algorithms.SwapPairs("256"));
